@@ -2,10 +2,13 @@ import random
 #Dice Roller
 def dice_roller(num_dice, num_sides, num_bonus):
     result = 0
-    rolls = [num_dice]
+    rolls = []
+    for i in range(num_dice):
+        rolls.append(None)
     for roll in rolls:
         roll = random.randint(1, num_sides)
         result += roll
+        #next two lines debug
         print("roll " + str(roll) +"\n")
         print("result " + str(result) + "\n")
     result += num_bonus
