@@ -20,5 +20,3 @@ def main():
         num_bonus = int(input("Any modifiers?\n"))
         print("Voila!")
         dice_roller(num_dice,num_sides,num_bonus)
-
-main()
