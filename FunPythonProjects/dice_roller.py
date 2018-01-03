@@ -8,9 +8,6 @@ def dice_roller(num_dice, num_sides, num_bonus):
     for roll in rolls:
         roll = random.randint(1, num_sides)
         result += roll
-        #next two lines debug
-        print("roll " + str(roll) +"\n")
-        print("result " + str(result) + "\n")
     result += num_bonus
     print(result)
 
