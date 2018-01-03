@@ -5,11 +5,13 @@ def dice_roller(num_dice, num_sides, num_bonus):
     rolls = [num_dice]
     for roll in rolls:
         roll = random.randint(1, num_sides)
-        result +=roll
+        result += roll
+        print("roll " + str(roll) +"\n")
+        print("result " + str(result) + "\n")
     result += num_bonus
     print(result)
 
-def main ():
+def main():
     go_again = True
     while go_again:
         print("Let's roll some dice! (or type \"quit\" to, well, you know).")
