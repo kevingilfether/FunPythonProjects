@@ -4,14 +4,17 @@ adjective1 = input("Adjective: ")
 plural_noun1 = input("Plural Noun: ")
 adjective2 = input("Adjective: ")
 plural_noun2 = input("Plural Noun: ")
+verb1 = input("Present Tense Verb: ")
+place1 = input("Place: ")
+noun1 = input("Noun: ")
 
 print("""
                 Driving with a trailer
 So, the {0} day is here. You've packed all the {1}, moved the {2} {3}
 and are ready to bid "adieu" to the old digs! Congratulations!
 
-But... wait. Something mysterious lurks in the background. That's right, you get to drive
-with a trailer in tow. Literally, in tow.
+But... wait. Something mysterious {4} in {5}. That's right, you get to drive
+with a {6} in tow. Literally, in tow.
 
 Here are some helpful trailer tips:
 
@@ -26,4 +29,4 @@ Otherwise, your trailer might hop the curb!
 
 4. Most of all, keep your wits about you and drive with normal safe technique.
 There is no substitute for careful work.
-""".format(adjective1, plural_noun1, adjective2, plural_noun2))
+""".format(adjective1, plural_noun1, adjective2, plural_noun2, verb1, place1, noun1))
