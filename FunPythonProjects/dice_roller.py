@@ -1,4 +1,5 @@
 import random
+import guess_a_number
 #Dice Roller
 def dice_roller(num_dice, num_sides, num_bonus):
     result = 0
@@ -11,12 +12,14 @@ def dice_roller(num_dice, num_sides, num_bonus):
     result += num_bonus
     print(result)
 
-def main():
-    go_again = True
-    while go_again:
-        print("Let's roll some dice! (or type \"quit\" to, well, you know).")
-        num_dice = int(input("How many dice are you rolling?\n"))
-        num_sides = int(input("How many sides do the dice have?\n"))
-        num_bonus = int(input("Any modifiers?\n"))
-        print("Voila!")
-        dice_roller(num_dice,num_sides,num_bonus)
+#def main():
+#    go_again = True
+#    while go_again:
+#        print("Let's roll some dice! (or type \"quit\" to, well, you know).")
+#        num_dice = int(input("How many dice are you rolling?\n"))
+#        num_sides = int(input("How many sides do the dice have?\n"))
+#        num_bonus = int(input("Any modifiers?\n"))
+#        print("Voila!")
+#        dice_roller(num_dice,num_sides,num_bonus)
+
+guess_a_number
