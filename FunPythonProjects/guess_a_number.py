@@ -8,14 +8,14 @@ guess = None
 
 print("Let's play a guessing game")
 print("Try to guess a number between 1 and 10!")
-guess = input()
+guess = int(input())
 
 while guess != number_to_guess:
     if guess > number_to_guess:
         print("You're too high! Try again.")
-        guess = input()
+        guess = int(input())
     elif guess < number_to_guess:
         print("You're too low. Try again.")
-        guess = input()
+        guess = int(input())
 
 print("You got it!")
