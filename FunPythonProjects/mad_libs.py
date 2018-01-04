@@ -23,4 +23,4 @@ Otherwise, your trailer might hop the curb!
 
 4. Most of all, keep your wits about you and drive with normal safe technique.
 There is no substitute for careful work.
-""".format({adjective1}))
+""".format(adjective1))
