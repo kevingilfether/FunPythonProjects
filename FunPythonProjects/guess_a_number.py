@@ -1,7 +1,5 @@
 #This is a number guessing program
 import random
-
-
 number_to_guess = random.randint(1,10)
 
 guess = None
