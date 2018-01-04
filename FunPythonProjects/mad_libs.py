@@ -1,8 +1,10 @@
 print("We're gonna play some madlibs!")
 
+adjective1 = input("Adjective:")
+
 print("""
                 Driving with a trailer
-So, moving day is here. You've packed all the boxes, moved the moist towlettes
+So, {0} day is here. You've packed all the boxes, moved the moist towlettes
 and are ready to bid "adieu" to the old digs! Congratulations!
 
 But... wait. Something mysterious lurks in the background. That's right, you get to drive
@@ -21,4 +23,4 @@ Otherwise, your trailer might hop the curb!
 
 4. Most of all, keep your wits about you and drive with normal safe technique.
 There is no substitute for careful work.
-""")
+""".format({adjective1}))
