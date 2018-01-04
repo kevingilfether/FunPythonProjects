@@ -24,6 +24,9 @@
     <Compile Include="dice_roller.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="mad_libs.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="main.py" />
     <Compile Include="guess_a_number.py">
       <SubType>Code</SubType>
