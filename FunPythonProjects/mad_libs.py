@@ -1,10 +1,13 @@
 print("We're gonna play some madlibs!")
 
-adjective1 = input("Adjective:")
+adjective1 = input("Adjective: ")
+plural_noun1 = input("Plural Noun: ")
+adjective2 = input("Adjective: ")
+plural_noun2 = input("Plural Noun: ")
 
 print("""
                 Driving with a trailer
-So, {0} day is here. You've packed all the boxes, moved the moist towlettes
+So, the {0} day is here. You've packed all the {1}, moved the {2} {3}
 and are ready to bid "adieu" to the old digs! Congratulations!
 
 But... wait. Something mysterious lurks in the background. That's right, you get to drive
@@ -23,4 +26,4 @@ Otherwise, your trailer might hop the curb!
 
 4. Most of all, keep your wits about you and drive with normal safe technique.
 There is no substitute for careful work.
-""".format(adjective1))
+""".format(adjective1, plural_noun1, adjective2, plural_noun2))
