@@ -15,3 +15,16 @@ dragon_lair = Room.Room("Vast, cavernous even!",
                         portal_e = None,
                         portal_s = portal_entrance_hall_to_dragon_lair,
                         portal_w = None)
+
+#Main Copy!
+print("Greetings, yon dungeon spelunker!")
+print("You behold in front of you a 'donjon' of great power 'n' promise.")
+while(dungeon_enter != "yes" or "no"):
+    dungeon_enter = input("Do you enter, brave adventurer?\n")
+    if dungeon_enter.lower == "yes":
+        player_location = entrance_hall
+    elif dungeon_enter.lower == "no":
+        print("Fine, ya weenie!")
+    else:
+        print("Come again?")
+        dungeon_enter =input("Try again, sport. \"Yes\" or \"No?\"\n")
