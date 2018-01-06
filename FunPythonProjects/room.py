@@ -5,3 +5,7 @@ class Room(object):
         self.size =size
         self.description = description
         self.doors = doors
+        self.portal_n = portal_n
+        self.portal_e = portal_e
+        self.portal_s = portal_s
+        self.portal_w = portal_w
