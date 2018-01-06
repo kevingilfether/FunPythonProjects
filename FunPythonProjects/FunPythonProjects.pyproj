@@ -31,6 +31,12 @@
     <Compile Include="guess_a_number.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Portal.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Room.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
